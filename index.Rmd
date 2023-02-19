@@ -9,7 +9,12 @@ Give your project a concise, interesting title that summarizes the entirety of y
 
 ### Authors
 
-Names of your team members
+| Name     | Email      |
+|:-------:|:--------:|
+| Bonnie   | bonche22@uw.edu |
+| Ling Lin | lingl3@uw.edu.  |
+| Yuchen AN| ayc0816@uw.edu. |
+| Mandy    | rwu1@uw.edu     |
 
 ### Date
 
@@ -68,7 +73,7 @@ Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+``````{r, echo = FALSE, code = readLines("Chart 1.R")}
 ```
 
 ### Chart 2
