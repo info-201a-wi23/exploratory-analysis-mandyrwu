@@ -80,6 +80,8 @@ print("hello world")
 ### Chart 2
 
 Include a chart
+```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("chart 2.R")}
+```
 
 Describe why you chose this chart and what information it reveals
 
