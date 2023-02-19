@@ -4,7 +4,7 @@ library("scales")
 library("dplyr")
 library("ggplot2")
 
-#Chart2.R Pie chart: Undergrad enrollment by race 
+#Chart2.R Pie chart: Undergrad Enrollment Percentage by Geography Location
 
 college_df <- read.csv("https://raw.githubusercontent.com/info-201a-wi23/exploratory-analysis-mandyrwu/main/Data-Table%201.csv", stringsAsFactors = FALSE)
 
