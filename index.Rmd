@@ -73,7 +73,8 @@ Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
-``````{r, echo = FALSE, code = readLines("Chart 1.R")}
+```{r, echo=FALSE, code = readLines("chart_example.R")}
+print("hello world")
 ```
 
 ### Chart 2
