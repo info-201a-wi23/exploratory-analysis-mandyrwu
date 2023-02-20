@@ -56,14 +56,19 @@ Assuming you answer your research questions, briefly describe the expected or po
 What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
 
 ### Summary Information
+```{r include=FALSE, paged.print=TRUE}
+source("summary_info.R")
+```
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+There are in total of `r col_num` columns and `r row_num` rows in the data frame where each row represents a university unit. For the enrollment data, we have `r enrollment_distribution[7]` of NA value which are not collected. The data are collected across `r state_num` states and there are `r total_enrollment` enrollments recorded in total. The enrollment has a mean of `r enrollment_distribution[4]` while the min enrollment is `r enrollment_distribution[1]` and max enrollment is `r enrollment_distribution[6]`.  
 
 ### Table
+```{r echo=FALSE}
+source("table.R")
+enrollment_by_state
+```
 
-Include a table of aggregate information
-
-Describe why you included the table and what information it reveals
+When we group the university enrollment by state, we are essentially taking a large dataset of university enrollment information and grouping it together based on the state in which each university is located. This allows us to see aggregate information about university enrollment for each state, rather than viewing the enrollment information for each individual university separately. By grouping the data in this way, we can gain insights into patterns and trends in university enrollment across different states.
 
 ### Chart 1
 
@@ -80,8 +85,7 @@ print("hello world")
 ### Chart 2
 
 Include a chart
-```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("chart 2.R")}
-```
+
 
 Describe why you chose this chart and what information it reveals
 
