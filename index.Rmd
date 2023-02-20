@@ -86,6 +86,11 @@ Include a chart
 Describe why you chose this chart and what information it reveals
 
 ### Chart 3
+
+I chose to create this chart to analyze the correlation between a college's acceptance rate and 4-year graduation rate to analyze whether the selectivity of an institution has an impact on the success of their students to graduate on time. I also added a differentiation for private versus public institutions to show whether more selective colleges are generally public or private. 
+
+After creating the chart, it reveals that there is a slight correlation between the two factors. The most selective colleges are almost all private institutions, and they tend to have a higher graduation rate. However, there are also a handful of data points that show selective institutions that have a lower 4-year graduation rate. Lastly, the chart shows that most colleges tend to fall between a 50-80% acceptance rate with a 4-year graduation rate between 15-50%. 
+
 ```{r, echo = FALSE, warning=FALSE, message=FALSE}
 #Load libraries 
 library("ggplot2")
