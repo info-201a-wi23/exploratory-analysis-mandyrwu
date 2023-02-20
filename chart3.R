@@ -12,7 +12,7 @@ admissions_data <- college_df %>%
 
 admissions_data <- mutate(admissions_data, "Acceptance.rate" = (Admissions.total/Applicants.total) * 100)
 
-ggplot(data = admissions_data) +
+scatterplot <- ggplot(data = admissions_data) +
   geom_point(mapping = aes(x = Acceptance.rate, y = Graduation.rate...Bachelor.degree.within.4.years..total, color = Control.of.institution)) +
   labs(title = "Colleges in the US: Accaptance Rate vs Undergrad Graduation Rate",
        x = "Acceptance Rate (%)",

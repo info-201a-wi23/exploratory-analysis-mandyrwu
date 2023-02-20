@@ -5,39 +5,77 @@ output: html_document
 
 ## Project title
 
-Give your project a concise, interesting title that summarizes the entirety of your project
+College enrollment data: An analysis on the student composition and statistics of colleges in the US 
 
 ### Authors
 
 | Name     | Email      |
 |:-------:|:--------:|
-| Bonnie   | bonche22@uw.edu |
-| Ling Lin | lingl3@uw.edu.  |
-| Yuchen AN| ayc0816@uw.edu. |
-| Mandy    | rwu1@uw.edu     |
+| Bonnie Chen  | bonche22@uw.edu |
+| Ling Lin     | lingl3@uw.edu.  |
+| Yuchen An    | ayc0816@uw.edu. |
+| Mandy Wu     | rwu1@uw.edu     |
 
 ### Date
 
-Winter 2022
+February 20, 2023 (Winter 2023)
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+Our project will attempt to analyze the data of college institutions in the US, including factors such as their enrollment size, acceptance rate, graduation rates, student demographic, etc. Through this, we can unveil the patterns of college enrollments based on different factors and show they shape the higher education system.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords: Higher education, college admissions, students
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+Our research study aims to examine the various factors that influence college admissions in the United States. The college admission process is a critical issue for students, educators, and policy makers, as it has a significant impact on a student's future success and well-being. The study will focus on exploring the role of student demographics, academic performance, standardized test scores, and extracurricular activities in the admissions process. By examining these factors, the study aims to uncover trends and patterns in the admissions process and contribute to the ongoing conversation about accessibility and equity in higher education. The findings of this study will provide valuable information for students, educators, and policy makers, as they work to ensure that all students have equal opportunities to pursue higher education and achieve their full potential.
+
+Research questions:
+
+- How does a student’s identity (race, gender, socioeconomic status) impact their access to higher education?
+- What is the demographic composition of college students in the US and how has it changed over time?
+- How does the graduation rate of colleges vary?
+- How has the enrollment rates of higher education changed over time?
+
+Studying the impact of a student's identity, including factors such as race, gender, and socioeconomic status, on their access to higher education is crucial for promoting diversity and inclusion and ensuring equal opportunities for all students. The demographics of college students have an impact on the types of programs and services that institutions offer and the types of support they provide. By understanding demographic trends in college enrollment, graduation rates, and other key metrics, decision-makers can make informed decisions about investment in higher education and workforce development.
+
+For example, by examining the graduation rates of different demographic groups, it is possible to identify any disparities and target efforts to improve educational outcomes for underrepresented groups. Furthermore, understanding the demographic composition of college students and how it has changed over time can provide insight into the progress made in promoting diversity and inclusion in higher education.
+
+Overall, the study of the impact of a student's identity on access to higher education is important for promoting equity and ensuring that all students have the opportunity to succeed. The information gathered from this type of research can inform decisions and policies aimed at improving access to and success in higher education for all students, regardless of their background.
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+College admission is getting more and more competitive, especially in 2022. Due to the outbreak of Covid-19, a record number of students have chosen to send college deferral letters and take a gap year. After the Covid-19 pandemic starts slowing down, students who left college during Covid-19 want to return school. The recruitment of new students, waitlisted students, college deferrals, transfer students, and international students arouse public attention. At this time, many schools adopted test-optional policies and the elimination of SAT or ACT subject test leading to an influx college applicant, with Common App experiencing a 22% surge in total applications submitted for class of 2026. Therefore, our project aims at studying data of college institutions and trying to find out what factors would influence the college admissions.
+
+In a study titled College Enrollment & Student Demographic Statistics, College enrollment totaled 15.85 million undergraduate students nationwide in fall 2020, a 4.31% decline year-over-year. 14.08 million college students attend 4-year institutions in fall Postsecondary Enrollment 2022. 73.7% of all postsecondary students attend public institutions and 27.0% of postsecondary students attend private institutions. Among all students, Black and Hispanic students enroll in higher numbers in community colleges and less-selective four-year institutions. However, 76.4% of White or Caucasian students enroll at 4-year institutions.
+
+In an additional study titled Race and gender differences in how sense of belonging influences decisions to major in STEM, the reason why women and students of color are widely underrepresented in most STEM fields is that students from underrepresented groups are less likely to feel they belong to STEM, like computer science or engineering. According to the survey, there are four key factors that were found to contribute to a sense of belonging: interpersonal relationships, perceived competence, personal interest, and science identity. However, due to the structural and cultural features of many universities, as well as STEM curricula and pedagogy, it seems like white males are privileged.
+
+A third article titled More student or faculty diversity on campus leads to lower racial gaps in graduation rates shows that if there are more students of color or faculty of color on campus, the graduation gap between Black and white students tends to shrink. In schools where 5% of the student body is Black, research shows white students are 16% more likely than Black students to graduate. In colleges where 65% of the students are Black, white students are only 4% more likely to graduate than Black students. All of these studies are closely related with our topic for the project and show us that there are many factors involved in college admission.
+
+References:
+
+Nicholas A. Bowman Mary Louise Petersen Chair in Higher Education. (2022, September 13). More student or faculty diversity on campus leads to lower racial gaps in graduation rates. The Conversation. Retrieved February 3, 2023, from https://theconversation.com/more-student-or-faculty-diversity-on-campus-leads-to-lower-racial-gaps-in-graduation-rates-181924
+
+Hanson, M., & Checked, F. (2023, January 1). College enrollment statistics [2023]: Total + by demographic. Education Data Initiative. Retrieved February 3, 2023, from https://educationdata.org/college-enrollment-statistics
+
+Rainey, K., Dancy, M., Mickelson, R., Stearns, E., & Moller, S. (2018, April 10). Race and gender differences in how sense of belonging influences decisions to major in STEM - International Journal of STEM Education. SpringerOpen. Retrieved February 3, 2023, from https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-018-0115-6
 
 ### The Dataset
+
+One of the data sets we chose for this topic is National Universities Rankings. The data set was found by using Google Data Search. It was collected and created by Kaggle, an online community of data scientists and machine learning practitioners founded in 2010. The data set is created based on the U.S. News & World Report from 2017, including rankings of universities and colleges in addition to undergraduate enrollment and tuition fees for each school.
+
+The data is collected to share this information with potential students to evaluate which college or university best fits them, exploring the categories separately and comparing them beforehand to figure out their future path.
+
+There are 230 rows and 7 columns for the data set, in which the rows are the universities and the columns are name, location, rank, description, tuition and fees, in-state, and undergrad enrollment. By looking at the column, we can get information about which university has the highest ranking, which has the lowest tuition, and which is the best price–performance ratio. Also, it is easier to explore the relationship between columns and factors by looking at the scatter plot of the data set and making decisions.
+
+Something to consider with this data may be the influence of personal bias. When we are working with this data set, we shouldn't bring our personal opinions about that university into it, and should only look at the facts and present the truth from our findings.
+
+A possible problem with this data is the bias of the source. The data was created based on the U.S. News & World Report, which like most media sources, are politically biased. According to the AllSides Media Bias Rating, U.S. News has a "lean left" rating, which could affect how they determine the national college ranking list. US college rankings from other sources can be seemingly different from what U.S. News published, therefore we should be mindful that there is subjectivity to this ranking and how that plays a role into our data representation. To address this, we would consider putting a disclaimer that the source of information for our dataset came from the U.S. News & World report, and does not serve as a true indicator or college rankings nationwide.
+
+A limitation of this dataset is the lack of details in the information given. For instance, this dataset has a column of tuition and fees and a column for in-state tuition, which creates confusion as to what the “fees” encompass and why that is not applicable for in-state students. Because the values for these two columns are singular numerical values, we have no way of analyzing what “fees” refer to. This may lead to the problem of creating possibly misleading data.
 
 Where did you find the data? Please include a link to the data source  
 Who collected the data?  
@@ -50,10 +88,24 @@ What are possible limitations or problems with this data?   (at least 200 words)
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+Assuming we answer our research questions, possible implications for technologists can be configuring the system to support the pursuit of higher education. Currently, the college application process is complicated and requires students to fulfill many different components, and not all students have equal resources to successfully complete the requirements. Technologists can reimagine a way to centralize the application process to make it easier for underprivileged students to access.
+
+Possible implications for designers could be redesigning the systems used for college applications and admissions to account for more variety in its applicant pools and reduce potential prejudice in evaluating applicants. Perhaps the interface can be designed in a more human-centered way and allows students to showcase qualities beyond their grades and extracurriculars.
+
+Possible implications for policymakers could be proposing policies that minimize discrimination in the college admission process and protect student privacy. For instance, should students need to provide information such as their race, gender, disability status, and how does that reinforce the inequality that applicants may face? Policies can be made to put restrictions on how much data colleges should have access to to ensure a more impartial selection in a school’s student body.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+Some limitations we may need to address are data that might be missing or miscalculated if students are applying to or attending colleges through other pathways, such as special educational programs or athletic endorsements. Because our project is trying to analyze how different factors play into the role of college admissions, we are examining data that represents students who applied to college through the traditional route.
+
+A challenge we may run into is finding comprehensive data that align with our research direction. Certain information about a college’s student admissions can be a breach of privacy, therefore we may not find the information we are seeking available to the public. In addition, we are trying to examine the discriminatory behavior within the higher education system, specifically during the admissions process, and that information is also unlikely to be available to the public. Thus, we will have to find related data that is available and use them to make inferences to answer our research questions.
+
+
+### Source Info
+```{r}
+source("chart3.R")
+```
+
 
 ### Summary Information
 ```{r include=FALSE, paged.print=TRUE}
@@ -62,6 +114,7 @@ source("summary_info.R")
 
 There are in total of `r col_num` columns and `r row_num` rows in the data frame where each row represents a university unit. For the enrollment data, we have `r enrollment_distribution[7]` of NA value which are not collected. The data are collected across `r state_num` states and there are `r total_enrollment` enrollments recorded in total. The enrollment has a mean of `r enrollment_distribution[4]` while the min enrollment is `r enrollment_distribution[1]` and max enrollment is `r enrollment_distribution[6]`.  
 
+
 ### Table
 ```{r echo=FALSE}
 source("table.R")
@@ -69,6 +122,7 @@ enrollment_by_state
 ```
 
 When we group the university enrollment by state, we are essentially taking a large dataset of university enrollment information and grouping it together based on the state in which each university is located. This allows us to see aggregate information about university enrollment for each state, rather than viewing the enrollment information for each individual university separately. By grouping the data in this way, we can gain insights into patterns and trends in university enrollment across different states.
+
 
 ### Chart 1
 
@@ -82,12 +136,14 @@ Here's an example of how to run an R script inside an RMarkdown file:
 print("hello world")
 ```
 
+
 ### Chart 2
 
 Include a chart
 
 
 Describe why you chose this chart and what information it reveals
+
 
 ### Chart 3
 
@@ -96,25 +152,6 @@ I chose to create this chart to analyze the correlation between a college's acce
 After creating the chart, it reveals that there is a slight correlation between the two factors. The most selective colleges are almost all private institutions, and they tend to have a higher graduation rate. However, there are also a handful of data points that show selective institutions that have a lower 4-year graduation rate. Lastly, the chart shows that most colleges tend to fall between a 50-80% acceptance rate with a 4-year graduation rate between 15-50%. 
 
 ```{r, echo = FALSE, warning=FALSE, message=FALSE}
-#Load libraries 
-library("ggplot2")
-library("plotly")
-library("dplyr")
-
-college_df <- read.csv("https://raw.githubusercontent.com/info-201a-wi23/exploratory-analysis-mandyrwu/main/Data-Table%201.csv", stringsAsFactors = FALSE)
-
-admissions_data <- college_df %>%
-  select(Name, Applicants.total, Admissions.total, Graduation.rate...Bachelor.degree.within.4.years..total, Control.of.institution)
-
-admissions_data <- mutate(admissions_data, "Acceptance.rate" = (Admissions.total/Applicants.total) * 100)
-
-ggplot(data = admissions_data) +
-  geom_point(mapping = aes(x = Acceptance.rate, y = Graduation.rate...Bachelor.degree.within.4.years..total, color = Control.of.institution)) +
-  labs(title = "Colleges in the US: Accaptance Rate vs Undergrad Graduation Rate",
-       x = "Acceptance Rate (%)",
-       y = "Graduation Rate with Bachelor Degreen within 4 Years (%)")
+scatterplot
 ```
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
