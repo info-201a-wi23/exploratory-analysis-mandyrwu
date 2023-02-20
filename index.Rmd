@@ -5,7 +5,7 @@ output: html_document
 
 ## Project title
 
-College enrollment data: An analysis on the student composition and statistics of colleges in the US 
+College enrollment data: An analysis on the student composition and enrollment statistics of colleges in the US 
 
 ### Authors
 
@@ -32,7 +32,7 @@ Keywords: Higher education, college admissions, students
 
 Our research study aims to examine the various factors that influence college admissions in the United States. The college admission process is a critical issue for students, educators, and policy makers, as it has a significant impact on a student's future success and well-being. The study will focus on exploring the role of student demographics, academic performance, standardized test scores, and extracurricular activities in the admissions process. By examining these factors, the study aims to uncover trends and patterns in the admissions process and contribute to the ongoing conversation about accessibility and equity in higher education. The findings of this study will provide valuable information for students, educators, and policy makers, as they work to ensure that all students have equal opportunities to pursue higher education and achieve their full potential.
 
-Research questions:
+**Research questions:**
 
 - How does a student’s identity (race, gender, socioeconomic status) impact their access to higher education?
 - What is the demographic composition of college students in the US and how has it changed over time?
@@ -49,13 +49,13 @@ Overall, the study of the impact of a student's identity on access to higher edu
 
 College admission is getting more and more competitive, especially in 2022. Due to the outbreak of Covid-19, a record number of students have chosen to send college deferral letters and take a gap year. After the Covid-19 pandemic starts slowing down, students who left college during Covid-19 want to return school. The recruitment of new students, waitlisted students, college deferrals, transfer students, and international students arouse public attention. At this time, many schools adopted test-optional policies and the elimination of SAT or ACT subject test leading to an influx college applicant, with Common App experiencing a 22% surge in total applications submitted for class of 2026. Therefore, our project aims at studying data of college institutions and trying to find out what factors would influence the college admissions.
 
-In a study titled College Enrollment & Student Demographic Statistics, College enrollment totaled 15.85 million undergraduate students nationwide in fall 2020, a 4.31% decline year-over-year. 14.08 million college students attend 4-year institutions in fall Postsecondary Enrollment 2022. 73.7% of all postsecondary students attend public institutions and 27.0% of postsecondary students attend private institutions. Among all students, Black and Hispanic students enroll in higher numbers in community colleges and less-selective four-year institutions. However, 76.4% of White or Caucasian students enroll at 4-year institutions.
+In a study titled  *[College Enrollment & Student Demographic Statistics](https://educationdata.org/college-enrollment-statistics)*,  College enrollment totaled 15.85 million undergraduate students nationwide in fall 2020, a 4.31% decline year-over-year. 14.08 million college students attend 4-year institutions in fall Postsecondary Enrollment 2022. 73.7% of all postsecondary students attend public institutions and  27.0% of postsecondary students attend private institutions. Among all students, Black and Hispanic students enroll in higher numbers in community colleges and less-selective four-year institutions. However, 76.4% of White or Caucasian students enroll at 4-year institutions.
 
-In an additional study titled Race and gender differences in how sense of belonging influences decisions to major in STEM, the reason why women and students of color are widely underrepresented in most STEM fields is that students from underrepresented groups are less likely to feel they belong to STEM, like computer science or engineering. According to the survey, there are four key factors that were found to contribute to a sense of belonging: interpersonal relationships, perceived competence, personal interest, and science identity. However, due to the structural and cultural features of many universities, as well as STEM curricula and pedagogy, it seems like white males are privileged.
+In an additional study titled *[Race and gender differences in how sense of belonging influences decisions to major in STEM](https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-018-0115-6)*,  the reason why women and students of color are widely underrepresented in most STEM fields is that students from underrepresented groups are less likely to feel they belong to STEM, like computer science or engineering. According to the survey, there are four key factors that were found to contribute to a sense of belonging: interpersonal relationships, perceived competence, personal interest, and science identity. However, due to the structural and cultural features of many universities, as well as STEM curricula and pedagogy, it seems like white males are privileged.
 
-A third article titled More student or faculty diversity on campus leads to lower racial gaps in graduation rates shows that if there are more students of color or faculty of color on campus, the graduation gap between Black and white students tends to shrink. In schools where 5% of the student body is Black, research shows white students are 16% more likely than Black students to graduate. In colleges where 65% of the students are Black, white students are only 4% more likely to graduate than Black students. All of these studies are closely related with our topic for the project and show us that there are many factors involved in college admission.
+A third article titled *[More student or faculty diversity on campus leads to lower racial gaps in graduation rates](https://theconversation.com/more-student-or-faculty-diversity-on-campus-leads-to-lower-racial-gaps-in-graduation-rates-181924)* shows that if there are more students of color or faculty of color on campus, the graduation gap between Black and white students tends to shrink.  In schools where 5% of the student body is Black, research shows white students are 16% more likely than Black students to graduate. In colleges where 65% of the students are Black, white students are only 4% more likely to graduate than Black students. All of these studies are closely related with our topic for the project and show us that there are many factors involved in college admission.
 
-References:
+**References:**
 
 Nicholas A. Bowman Mary Louise Petersen Chair in Higher Education. (2022, September 13). More student or faculty diversity on campus leads to lower racial gaps in graduation rates. The Conversation. Retrieved February 3, 2023, from https://theconversation.com/more-student-or-faculty-diversity-on-campus-leads-to-lower-racial-gaps-in-graduation-rates-181924
 
@@ -65,26 +65,15 @@ Rainey, K., Dancy, M., Mickelson, R., Stearns, E., & Moller, S. (2018, April 10)
 
 ### The Dataset
 
-One of the data sets we chose for this topic is National Universities Rankings. The data set was found by using Google Data Search. It was collected and created by Kaggle, an online community of data scientists and machine learning practitioners founded in 2010. The data set is created based on the U.S. News & World Report from 2017, including rankings of universities and colleges in addition to undergraduate enrollment and tuition fees for each school.
+The data set we chose to use is [College Admissions](https://www.kaggle.com/datasets/samsonqian/college-admissions). The data set was found by using Google Data Search. It was collected and created by [Kaggle](https://www.kaggle.com), an online community of data scientists and machine learning practitioners founded in 2010.
 
-The data is collected to share this information with potential students to evaluate which college or university best fits them, exploring the categories separately and comparing them beforehand to figure out their future path.
+The data is collected by Samson Qian, a masters student in Financial Engineering at MIT, to share information about colleges in the US. The data includes information like the student demographic composition, enrollment and application statistics, standardized test scores, graduation rates, etc. for each college in the US. However, there was no clear indication of how the data was sourced. 
 
-There are 230 rows and 7 columns for the data set, in which the rows are the universities and the columns are name, location, rank, description, tuition and fees, in-state, and undergrad enrollment. By looking at the column, we can get information about which university has the highest ranking, which has the lowest tuition, and which is the best price–performance ratio. Also, it is easier to explore the relationship between columns and factors by looking at the scatter plot of the data set and making decisions.
+There are 1517 rows and 108 columns in the data set. Each row stores information about a single institution, and the columns are different factors about that institution, such as their applicant count, enrollment count, tuition, graduation rate, demographic makeup of the student body, and many more. By looking at the column, we can get information about which university has the most selective acceptance rates, which has the lowest tuition, and which is the best price–performance ratio. Also, it is easier to explore the relationship between columns and factors by looking at the scatter plot of the data set and making decisions.
 
-Something to consider with this data may be the influence of personal bias. When we are working with this data set, we shouldn't bring our personal opinions about that university into it, and should only look at the facts and present the truth from our findings.
+A possible problem with this data is the source for this data. The data was created four years ago, but there are no citations on where this information was collected from and no time stamp on the time that this data was sourced. Even though the creator of the data set has a credible background, a lack of transparency in where the data of sourced makes the data set a little skeptical to work with. 
 
-A possible problem with this data is the bias of the source. The data was created based on the U.S. News & World Report, which like most media sources, are politically biased. According to the AllSides Media Bias Rating, U.S. News has a "lean left" rating, which could affect how they determine the national college ranking list. US college rankings from other sources can be seemingly different from what U.S. News published, therefore we should be mindful that there is subjectivity to this ranking and how that plays a role into our data representation. To address this, we would consider putting a disclaimer that the source of information for our dataset came from the U.S. News & World report, and does not serve as a true indicator or college rankings nationwide.
-
-A limitation of this dataset is the lack of details in the information given. For instance, this dataset has a column of tuition and fees and a column for in-state tuition, which creates confusion as to what the “fees” encompass and why that is not applicable for in-state students. Because the values for these two columns are singular numerical values, we have no way of analyzing what “fees” refer to. This may lead to the problem of creating possibly misleading data.
-
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+A limitation of this data set is that even though it has many columns with very specific information for each institution, it does not provide a comprehensive look into the institutions. For example, the data set only includes information on federal financial aid provided to freshman students, but doesn't have data for such statistics for students in other years, which prevents us from analyzing how factors like that may differ for different demographic groups. 
 
 ### Implications
 
@@ -121,7 +110,7 @@ source("table.R")
 enrollment_by_state
 ```
 
-When we group the university enrollment by state, we are essentially taking a large dataset of university enrollment information and grouping it together based on the state in which each university is located. This allows us to see aggregate information about university enrollment for each state, rather than viewing the enrollment information for each individual university separately. By grouping the data in this way, we can gain insights into patterns and trends in university enrollment across different states.
+When we group the university enrollment by state, we are essentially taking a large data set of university enrollment information and grouping it together based on the state in which each university is located. This allows us to see aggregate information about university enrollment for each state, rather than viewing the enrollment information for each individual university separately. By grouping the data in this way, we can gain insights into patterns and trends in university enrollment across different states.
 
 
 ### Chart 1
