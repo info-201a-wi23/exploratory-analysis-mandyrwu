@@ -16,6 +16,7 @@ scatterplot <- ggplot(data = admissions_data) +
   geom_point(mapping = aes(x = Acceptance.rate, y = Graduation.rate...Bachelor.degree.within.4.years..total, color = Control.of.institution)) +
   labs(title = "Colleges in the US: Accaptance Rate vs Undergrad Graduation Rate",
        x = "Acceptance Rate (%)",
-       y = "Graduation Rate with Bachelor Degreen within 4 Years (%)")
+       y = "Graduation Rate with Bachelor Degreen within 4 Years (%)", 
+       col = "Institution Type")
 
 
