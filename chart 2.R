@@ -17,8 +17,8 @@ total_undergrade_enrollment = sum(college_df$enrollment, na.rm = TRUE)
 college_df <- college_df %>%
   mutate(percentage_enrollment = (enrollment / total_undergrade_enrollment))
 
-plot <- ggplot(data = college_df, aes(x = "", y = percentage_enrollment, fill = location)) +
-        labs(title = "Undergrad Enrollment Percentage by Geography Location", fill = "Geography Location") +
+piechart <- ggplot(data = college_df, aes(x = "", y = percentage_enrollment, fill = location)) +
+        labs(title = "Undergrad Enrollment Percentage by Geographic Location", fill = "Geographic Location") +
         geom_col(color = "black") +
         coord_polar(theta = "y") +
         theme(axis.title.x = element_blank(),
