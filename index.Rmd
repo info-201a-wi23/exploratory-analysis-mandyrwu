@@ -92,8 +92,9 @@ A challenge we may run into is finding comprehensive data that align with our re
 =======
 ### Source Info
 ```{r}
-source("chart3.R")
 source("chart1.R")
+source("chart 2.R")
+source("chart3.R")
 ```
 
 
