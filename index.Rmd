@@ -127,11 +127,14 @@ map_plot
 
 ### Chart 2
 
-Include a chart
+I chose to create this pie chart to present the undergrad enrollment percentage by geography location to find out what are the places (location) that undergrad students like the most and analyze how the geography location affects the enrollment of universities.
 
+The piechart shows that the top three ranking of geography location that has the most undergrad enrollment are city: large, city: small, and suburb: large, in which most of the students chose the university that is in or close to the city, and this might mean that university that is in or near the city usually has a higher number of student enrollments than others.
 
-Describe why you chose this chart and what information it reveals
-
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+source("chart 2.R")
+piechart
+```
 
 ### Chart 3
 
