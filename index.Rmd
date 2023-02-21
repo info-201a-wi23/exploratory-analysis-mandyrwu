@@ -88,6 +88,16 @@ Some limitations we may need to address are data that might be missing or miscal
 A challenge we may run into is finding comprehensive data that align with our research direction. Certain information about a college’s student admissions can be a breach of privacy, therefore we may not find the information we are seeking available to the public. In addition, we are trying to examine the discriminatory behavior within the higher education system, specifically during the admissions process, and that information is also unlikely to be available to the public. Thus, we will have to find related data that is available and use them to make inferences to answer our research questions.
 
 
+<<<<<<< HEAD
+=======
+### Source Info
+```{r}
+source("chart3.R")
+source("chart1.R")
+```
+
+
+>>>>>>> 4d31cba60c133d393893ad4589347bce6c12bd9d
 ### Summary Information
 ```{r include=FALSE, paged.print=TRUE}
 source("summary_info.R")
@@ -107,14 +117,11 @@ When we group the university enrollment by state, we are essentially taking a la
 
 ### Chart 1
 
-Include a chart
+I chose to use the map to show that the number of undergraduate enrollment grouped by state boundaries. I wanted to show the difference of college student population throughout the country, and then found states with the most college students and states with lowest college students. 
 
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-```{r, echo=FALSE, code = readLines("chart1_example.R")}
-print("hello world")
+The map reveals the states with highest number of students enrolled are California, Texas and New York. The states with the lowest number of students are Alaska, Wyoming and Vermont. 
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+map_plot
 ```
 
 
