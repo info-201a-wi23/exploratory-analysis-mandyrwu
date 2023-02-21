@@ -88,6 +88,17 @@ Some limitations we may need to address are data that might be missing or miscal
 A challenge we may run into is finding comprehensive data that align with our research direction. Certain information about a college’s student admissions can be a breach of privacy, therefore we may not find the information we are seeking available to the public. In addition, we are trying to examine the discriminatory behavior within the higher education system, specifically during the admissions process, and that information is also unlikely to be available to the public. Thus, we will have to find related data that is available and use them to make inferences to answer our research questions.
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+### Source Info
+```{r}
+source("chart1.R")
+source("chart 2.R")
+source("chart3.R")
+```
+>>>>>>> f01baa77a1427298e6e40273c2849d58a2b28beb
 
 ### Summary Information
 ```{r include=FALSE, paged.print=TRUE}
@@ -119,11 +130,14 @@ map_plot
 
 ### Chart 2
 
-Include a chart
+I chose to create this pie chart to present the undergrad enrollment percentage by geography location to find out what are the places (location) that undergrad students like the most and analyze how the geography location affects the enrollment of universities.
 
+The piechart shows that the top three ranking of geography location that has the most undergrad enrollment are city: large, city: small, and suburb: large, in which most of the students chose the university that is in or close to the city, and this might mean that university that is in or near the city usually has a higher number of student enrollments than others.
 
-Describe why you chose this chart and what information it reveals
-
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+source("chart 2.R")
+piechart
+```
 
 ### Chart 3
 
